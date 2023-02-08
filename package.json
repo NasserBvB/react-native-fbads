@@ -4,10 +4,10 @@
   "description": "Native Facebook Ads for React Native",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callstack/react-native-fbads"
+    "url": "https://github.com/NasserBvB/react-native-fbads.git"
   },
-  "homepage": "https://github.com/callstack/react-native-fbads",
-  "main": "dist/lib/index.js",
+  "homepage": "https://github.com/NasserBvB/react-native-fbads.git",
+  "main": "src/index.ts",
   "typings": "dist/types/index.d.ts",
   "directories": {
     "example": "example"
@@ -17,10 +17,10 @@
     "clean:plugin": "expo-module clean plugin",
     "lint:plugin": "eslint plugin/src/*",
     "prepare": "npm run build:plugin",
-    "tsc": "tsc --project .",
+    "build": "tsc --project .",
     "lint": "tslint --project ."
   },
-  "author": "Suraj Tiwari <surajtiwari020@gmail.com>",
+  "author": "Nasser Setti <abdennasseressati@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "*"
